@@ -3,7 +3,7 @@
 Summary:	Net-Gadu is a perl module to support Gadu-Gadu protocol
 Name:		perl-Net-Gadu
 Version:	1.8
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/~krzak/Net-Gadu/Gadu.pm
