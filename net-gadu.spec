@@ -6,6 +6,7 @@ Version:	1.8
 Release:	%mkrel 4
 License:	GPL
 Group:		Development/Perl
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://search.cpan.org/~krzak/Net-Gadu/Gadu.pm
 Source0:	http://www.cpan.org/modules/by-module/Net/Net-Gadu-%{version}.tar.bz2
 BuildRequires:	perl-devel
