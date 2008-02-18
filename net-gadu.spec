@@ -1,6 +1,6 @@
 %define module Net-Gadu
 
-Summary:	Net-Gadu is a perl module to support Gadu-Gadu protocol
+Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-Net-Gadu
 Version:	1.8
 Release:	%mkrel 4
