@@ -3,7 +3,7 @@
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-Net-Gadu
 Version:	1.8
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL
 Group:		Development/Perl
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
