@@ -3,15 +3,15 @@
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-Net-Gadu
 Version:	1.8
-Release:	%mkrel 5
-License:	GPL
+Release:	%mkrel 6
+License:	LGPLv2+
 Group:		Development/Perl
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://search.cpan.org/~krzak/Net-Gadu/Gadu.pm
 Source0:	http://www.cpan.org/modules/by-module/Net/Net-Gadu-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	libgadu-devel	>= 1.7.1
 BuildRequires:  chrpath
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Net-Gadu is a perl module. It is intended to make it easy to add Gadu-Gadu
