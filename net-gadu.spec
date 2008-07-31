@@ -3,7 +3,7 @@
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-Net-Gadu
 Version:	1.8
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	LGPLv2+
 Group:		Development/Perl
 URL:		http://search.cpan.org/~krzak/Net-Gadu/Gadu.pm
