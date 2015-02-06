@@ -4,7 +4,7 @@
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	5
 License:	LGPLv2+
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}
