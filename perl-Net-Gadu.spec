@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	5
 License:	LGPLv2+
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{upstream_name}
+URL:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	libgadu-devel	>= 1.7.1
