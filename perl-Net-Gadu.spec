@@ -3,12 +3,12 @@
 
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 License:	LGPLv2+
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.bz2
+URL:		https://metacpan.org/dist/Net-Gadu
+Source0:	https://cpan.metacpan.org/authors/id/K/KR/KRZAK/Net-Gadu-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	libgadu-devel	>= 1.7.1
