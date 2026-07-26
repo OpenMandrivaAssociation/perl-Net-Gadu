@@ -1,14 +1,12 @@
 %define upstream_name Net-Gadu
-%define upstream_version 1.9
-
 Summary:	Perl module to support Gadu-Gadu protocol
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.9
+Release:	7
 License:	LGPLv2+
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/Net-Gadu
-Source0:	https://cpan.metacpan.org/authors/id/K/KR/KRZAK/Net-Gadu-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/K/KR/KRZAK/Net-Gadu-%{version}.tar.gz
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	libgadu-devel	>= 1.7.1
@@ -20,7 +18,7 @@ Net-Gadu is a perl module. It is intended to make it easy to add Gadu-Gadu
 communication support to your scripts. It uses libgadu library.
 
 %prep
-%setup -qn %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
